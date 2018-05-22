@@ -41,8 +41,18 @@ class QuanLyLoaiSanPham extends Component {
         } else {
             return (
                 <div>
-                    <div className="card mb-3">
-                    <h2>Quản Lý Loại sản phẩm</h2>
+                    <div className="content-wrapper">
+                        <div className="container-fluid">
+                            <ol className="breadcrumb">
+                                <li className="breadcrumb-item">
+                                    <a href="#">Dashboard</a>
+                                </li>
+                                <li className="breadcrumb-item active">Tables</li>
+                            </ol>
+                            <div className="album py-5 bg-light">
+                                <div className="container">
+
+                                <h2>Quản Lý Loại sản phẩm</h2>
                         <p>
                             <button type="button" className="btn btn-primary my-2" data-toggle="modal" data-target="#createModal">Thêm
                                 mới sản phẩm</button>
@@ -87,6 +97,9 @@ class QuanLyLoaiSanPham extends Component {
                     ))
                     }
                 </div>
+                </div>
+                        </div>
+                    </div>
                 </div>
             );
         }
